@@ -40,7 +40,7 @@ public class SBIBank {
 	}
 	
 	//withdraw method
-	public void withdraw(double amount) throws Exception {
+	public void withdraw(double amount)   {
 		try {
 		if(amount<balance) {
 			balance=balance-amount;
@@ -49,7 +49,7 @@ public class SBIBank {
 		}
 		else {
 			throw new Exception("your balance amount is less than withdraw amount");
-//			System.out.println("my balance is"+balance);
+		//System.out.println("my balance is"+balance);
 		}
 	}
 		catch( Exception e){
