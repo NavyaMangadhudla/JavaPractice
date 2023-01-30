@@ -13,20 +13,23 @@ public class ListOfNames {
 		name.add("raji");
 		name.add("anu");
 		name.add("ram");
-		//for(String s:a1)
+		for(String s:name);
+		{
+			System.out.println(name);
+		}
 		//for(int i=0;i<a1.size();i++)
 		
-		//System.out.println(name.get(i));
-		ListIterator<String> itr= name.listIterator();
-		System.out.println("forward direction");
-		while(itr.hasNext()) {
-		System.out.println(itr.next());
-		}
-		System.out.println("reverse direction");
-		while(itr.hasPrevious()) {
-		System.out.println(itr.previous());
-		
+//		//System.out.println(name.get(i));
+//		ListIterator<String> itr= name.listIterator();
+//		System.out.println("forward direction");
+//		while(itr.hasNext()) {
+//		System.out.println(itr.next());
+//		}
+//		System.out.println("reverse direction");
+//		while(itr.hasPrevious()) {
+//		System.out.println(itr.previous());
+//		
 		}
 	}
 
-}
+

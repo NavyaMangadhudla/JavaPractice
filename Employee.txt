@@ -1,0 +1,27 @@
+Employer() ->shanthi -> id,name,mail
+
+addEMployee() 
+deleteEmployee()
+updateEMployee()
+viewAllEmployees()
+assignCourses()
+
+Employee->id,name,salary,List<courses>
+--------------------------------------
+
+viewAssignedCourses()
+
+course()->cid,cname
+--------------------------
+
+
+{
+"Employee"{
+"id":1,
+"name":"sowmya"
+"salary":10009;
+"email":"sowmya@gmail.com",
+"courses"null
+}
+
+}
